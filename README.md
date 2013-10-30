@@ -1,4 +1,14 @@
+### Fork/PR please! wanted:
+
+* better table
+* better testing methods
+* more oses
+* refined examples
+* more bench utils
+
 `13.0.0 Darwin Kernel Version 13.0.0: Thu Sep 19 22:22:27 PDT 2013; root:xnu-2422.1.72~6/RELEASE_X86_64 x86_64`
+
+`ab -c 100 -n 10000 http://127.0.0.1:4567/ping`
 
 <table>
 
