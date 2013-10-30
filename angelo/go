@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'angelo'
+
+class Test < Angelo::Base
+
+  get '/ping' do
+    'pong'
+  end
+
+end
+
+Test.run

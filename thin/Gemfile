@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'thin'
+
+platform :rbx do
+  gem 'rubysl-erb'
+  gem 'rubysl-cgi'
+end

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'sinatra'
+
+configure do
+  disable :logging
+end
+
+get '/ping' do
+  'pong'
+end

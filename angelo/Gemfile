@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'angelo'
+gem 'pry'
+
+platform :rbx do
+  gem 'rubysl-cgi'
+  gem 'rubysl-prettyprint'
+end

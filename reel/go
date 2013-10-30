@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'reel'
+
+PONG = 'pong'.freeze
+
+Reel::Server.run('127.0.0.1', 4567) do |connection|
+  connection.each_request do |request|
+    request.respond :ok, PONG
+  end
+end
